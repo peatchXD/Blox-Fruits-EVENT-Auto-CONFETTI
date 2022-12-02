@@ -1,138 +1,299 @@
-LJÈ    4   ) : 4  4  7% > =  > G  mhttps://raw.githubusercontent.com/peatchXD/Blox-Fruits-EVENT-Auto-CONFETTI/main/1.%20Auto%20CONFETTI.luaHttpGet	gameloadstringAutoConfetti_GÈ    4   ) : 4  4  7% > =  > G  mhttps://raw.githubusercontent.com/peatchXD/Blox-Fruits-EVENT-Auto-CONFETTI/main/1.%20Auto%20CONFETTI.luaHttpGet	gameloadstringAutoConfetti_G   
-4     7  % >   7  4 % > = ,   G  €NotSameServers.json
-readfileJSONDecodeHttpServiceGetService	game`   4   % > 2   ,   4  7  +  + > G    insert
-tableNotSameServers.jsondelfileƒ   4   % 4  7% > 7+  > = 4  > 4    7  % >   7  + + 4 7	7
-> G    €LocalPlayerPlayersTeleportToPlaceInstanceTeleportService	waitJSONEncodeHttpServiceGetService	gameNotSameServers.jsonwritefileÊ n)   +    T€4 7 74  7% + % $> =  T€4 7 74  7% + % +  $> =  %  7   T€7 	 T€7 
-  T€7 ,  '  4
- 7 >D7€) 4	 7
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Build-A-Boat-For-Treasure/main/GUI"))() 
+local Window = Library.CreateLib("NONANE HUB", "DarkTheme")
 
->		 4	 7
->	4
- 7>
-
-	 T	*€4	
- +
- >	D€  T€4 
- > T
-€) T€4 + >4 
- > T€4 1 >BNé T	
-€4	 7		+
-  >	4	 >	4	 1
- >	4	 '
- >	BNÇ0  €G  €À€À 	waitinsert
-table 
-pcallplayingmaxPlayers
-tonumberid
-tostring	data
-pairs	nullnextPageCursor4/servers/Public?sortOrder=Asc&limit=100&cursor=,/servers/Public?sortOrder=Asc&limit=100'https://games.roblox.com/v1/games/HttpGetJSONDecodeHttpService	game 5   4   > +     T €4   > G    TPReturner=  
-4   >    T€Q €4  1 > T ÷G  € 
-pcall	wait‘    %   % 4  7% >77 7   >G  InvokeServerCommF_RemotesReplicatedStorageGetService	gameMarinesSetTeam¿  	 X4   4  7% > 7> =  D€4 77% >  T
-€4	 7>4 7
-777
-7:4 (  >BNê4  7 
- 7  7  7    7  > 4   4  7% > 7> =  D!€4 77% >  T€ 7% >  T€4 4 7
-777
-7'  >4 >4 4 7
-777
-7' >BNÝG  ParentfiretouchinterestTouchTransmitterIsAGetDescendantsDestroy	Head	waitCFrameHumanoidRootPartCharacterLocalPlayerPlayers
-print
-Chest	Name	findstringGetChildrenWorkspaceGetService	game
-pairsçÌ™³³æŒþ`  4   (  >    T€Q €4     T÷4  1 > T óG   
-pcallChest_Farm	waitµæÌ™™³¦ÿ\    	4   4 > 4  > 4  % > G  Finding new server
-print
-Teleportwait_Time	waitR   
-4   >    T€Q €4     Tø4  1 > T ôG   
-pcallServer_Hop	wait¡ 
- M4   > ) : 4   > ) : 4   > ' : 4  7     T€  T€	  T8€Q€4 >4  7>
- T÷'  4 72  % 4	 7
-% >7) 4
- 1 >  T€4 7	 
- >4 %	 4
- 
- 7
-
-% >
-
- 7
-
- >
- =1 5 1 5 4 1	 >4 1	 >4 1	 >0 €G     
-spawn
-Teleport TPReturner JSONEncodeHttpServiceGetServiceNotSameServers.jsonwritefileinsert
-table 
-pcall	hour!*t	dateos
-IsLoaded	waitPlaceId	gamewait_TimeChest_FarmServer_Hopgetgenv€€º
-­‰’€€·û˜Â€€“Ò€ï   
-4     7  % >   7  4 % > = ,   G  €NotSameServers.json
-readfileJSONDecodeHttpServiceGetService	game`   4   % > 2   ,   4  7  +  + > G    insert
-tableNotSameServers.jsondelfileƒ   4   % 4  7% > 7+  > = 4  > 4    7  % >   7  + + 4 7	7
-> G    €LocalPlayerPlayersTeleportToPlaceInstanceTeleportService	waitJSONEncodeHttpServiceGetService	gameNotSameServers.jsonwritefileÊ n)   +    T€4 7 74  7% + % $> =  T€4 7 74  7% + % +  $> =  %  7   T€7 	 T€7 
-  T€7 ,  '  4
- 7 >D7€) 4	 7
+local Tab = Window:NewTab("🎉 Auto Confetti") local Section = Tab:NewSection("🎉 Script Auto Confetti")
+Section:NewButton("🎉 Start", " Auto Confetti Script", function() 
+_G.AutoConfetti = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Blox-Fruits-EVENT-Auto-CONFETTI/main/1.%20Auto%20CONFETTI.lua"))() end)
+Section:NewButton("🎉 Stop", "🎉 Script Auto Confetti", function() 
+_G.AutoConfetti = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/peatchXD/Blox-Fruits-EVENT-Auto-CONFETTI/main/1.%20Auto%20CONFETTI.lua"))() end)
+local Section = Tab:NewSection("⚡ Auto Chest!")
+Section:NewButton("⚡ Start", "มีโอการโดนเตะเยอะ", function() 
+getgenv().Server_Hop = false
+getgenv().Chest_Farm = true
+getgenv().wait_Time = 1 -- Seconds
 
->		 4	 7
->	4
- 7>
-
-	 T	*€4	
- +
- >	D€  T€4 
- > T
-€) T€4 + >4 
- > T€4 1 >BNé T	
-€4	 7		+
-  >	4	 >	4	 1
- >	4	 '
- >	BNÇ0  €G  €À€À 	waitinsert
-table 
-pcallplayingmaxPlayers
-tonumberid
-tostring	data
-pairs	nullnextPageCursor4/servers/Public?sortOrder=Asc&limit=100&cursor=,/servers/Public?sortOrder=Asc&limit=100'https://games.roblox.com/v1/games/HttpGetJSONDecodeHttpService	game 5   4   > +     T €4   > G    TPReturner=  
-4   >    T€Q €4  1 > T ÷G  € 
-pcall	wait‘    %   % 4  7% >77 7   >G  InvokeServerCommF_RemotesReplicatedStorageGetService	gameMarinesSetTeam¿  	 X4   4  7% > 7> =  D€4 77% >  T
-€4	 7>4 7
-777
-7:4 (  >BNê4  7 
- 7  7  7    7  > 4   4  7% > 7> =  D!€4 77% >  T€ 7% >  T€4 4 7
-777
-7'  >4 >4 4 7
-777
-7' >BNÝG  ParentfiretouchinterestTouchTransmitterIsAGetDescendantsDestroy	Head	waitCFrameHumanoidRootPartCharacterLocalPlayerPlayers
-print
-Chest	Name	findstringGetChildrenWorkspaceGetService	game
-pairsçÌ™³³æŒþ`  4   (  >    T€Q €4     T÷4  1 > T óG   
-pcallChest_Farm	waitµæÌ™™³¦ÿ\    	4   4 > 4  > 4  % > G  Finding new server
-print
-Teleportwait_Time	waitR   
-4   >    T€Q €4     Tø4  1 > T ôG   
-pcallServer_Hop	wait¡ 
- M4   > ) : 4   > ) : 4   > ' : 4  7     T€  T€	  T8€Q€4 >4  7>
- T÷'  4 72  % 4	 7
-% >7) 4
- 1 >  T€4 7	 
- >4 %	 4
- 
- 7
-
-% >
-
- 7
-
- >
- =1 5 1 5 4 1	 >4 1	 >4 1	 >0 €G     
-spawn
-Teleport TPReturner JSONEncodeHttpServiceGetServiceNotSameServers.jsonwritefileinsert
-table 
-pcall	hour!*t	dateos
-IsLoaded	waitPlaceId	gamewait_TimeChest_FarmServer_Hopgetgenv€€º
-­‰’€€·û˜Â€€“Ò€ïA   +     7   4 7+ > G     PlaceId	game
-TeleportC  4   1 >   T€   T€4  >G   ÀÀ	warn 
-pcall¨  	 4     7  % > 4   7% >74 71 >4 7 >0  €G  resume createcoroutineLocalPlayerPlayersTeleportServiceGetService	game&   +     7   > G   À
-ToggleUI‹  $ M4   4  7% > =  > 7 % % > 7% > 7	%
- > 7% %
- 1 > 7% %
- 1 > 7	% > 7% % 1	 > 7% % 1	 > 7	% > 7% %	 1
- > 7% > 7	%	 >	 7%
- % 4  7!7"1
-# >0  €G   FKeyCode	EnumKeybindInfoâš™ press to change buttonNewKeybindBy: peatchXD#6075ðŸŽ« credit Rejoin a GameRejoin	Main âš¡ Stop! 8à¸¡à¸µà¹‚à¸­à¸à¸²à¸£à¹‚à¸”à¸™à¹€à¸•à¸°à¹€à¸¢à¸­à¸°âš¡ Startâš¡ Auto Chest! ðŸŽ‰ Stop  Auto Confetti ScriptðŸŽ‰ StartNewButtonðŸŽ‰ Script Auto ConfettiNewSectionðŸŽ‰ Auto ConfettiNewTabDarkThemeNONANE HUBCreateLibRhttps://raw.githubusercontent.com/peatchXD/Build-A-Boat-For-Treasure/main/GUIHttpGet	gameloadstring 
+local placeId = game.PlaceId
+if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
+repeat wait() until game:IsLoaded() ~= false
+
+
+local Counter = 0
+local PlaceID = game.PlaceId
+     local AllIDs = {}
+     local foundAnything = ""
+     local actualHour = os.date("!*t").hour
+     local Deleted = false
+
+     local File = pcall(function()
+         AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+     end)
+     if not File then
+         table.insert(AllIDs, actualHour)
+         writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+     end
+    
+     function TPReturner()
+         local Site;
+         if foundAnything == "" then
+             Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+         else
+             Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+         end
+         local ID = ""
+         if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+             foundAnything = Site.nextPageCursor
+         end
+         local num = 0;
+         for i,v in pairs(Site.data) do
+             local Possible = true
+             ID = tostring(v.id)
+             if tonumber(v.maxPlayers) > tonumber(v.playing) then
+                 for _,Existing in pairs(AllIDs) do
+                     if num ~= 0 then
+                         if ID == tostring(Existing) then
+                             Possible = false
+                         end
+                     else
+                         if tonumber(actualHour) ~= tonumber(Existing) then
+                             local delFile = pcall(function()
+                                delfile("NotSameServers.json")
+                                 AllIDs = {}
+                                 table.insert(AllIDs, actualHour)
+                             end)
+                         end
+                     end
+                     num = num + 1
+                 end
+                 if Possible == true then
+                     table.insert(AllIDs, ID)
+                     wait()
+                     pcall(function()
+                         writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+                         wait()
+                         game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                     end)
+                     wait(4)
+                 end
+             end
+         end
+     end
+ 
+     function Teleport()
+        while wait() do
+            pcall(function()
+                 TPReturner()
+                 if foundAnything ~= "" then
+                     TPReturner()
+                 end
+            end)
+        end
+     end
+
+     spawn(function()
+        local ohString1 = "SetTeam"
+        local ohString2 = "Marines"
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(ohString1, ohString2)
+     end)
+
+
+spawn(function()
+   while wait(.8) do
+      if Chest_Farm then
+          pcall(function()
+  
+  for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+      if string.find(v.Name, "Chest") then
+          print(v.Name)
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+          wait(.15)
+      end
+  end
+  game.Players.LocalPlayer.Character.Head:Destroy()
+  for _,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+   if string.find(v.Name, "Chest") and v:IsA("TouchTransmitter") then
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+   wait()
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+   end
+   end
+  end)
+      end
+  end
+end)
+
+spawn(function()
+    while wait() do
+        if Server_Hop then
+            pcall(function()
+                        wait(wait_Time)
+                        Teleport()
+                        print("Finding new server")
+            end)
+        end
+    end
+end)
+
+
+end
+end)
+
+
+Section:NewButton("⚡ Stop!", "มีโอการโดนเตะเยอะ", function() 
+getgenv().Server_Hop = false
+getgenv().Chest_Farm = false
+getgenv().wait_Time = 1 -- Seconds
+
+local placeId = game.PlaceId
+if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
+repeat wait() until game:IsLoaded() ~= false
+
+
+local Counter = 0
+local PlaceID = game.PlaceId
+     local AllIDs = {}
+     local foundAnything = ""
+     local actualHour = os.date("!*t").hour
+     local Deleted = false
+
+     local File = pcall(function()
+         AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
+     end)
+     if not File then
+         table.insert(AllIDs, actualHour)
+         writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+     end
+    
+     function TPReturner()
+         local Site;
+         if foundAnything == "" then
+             Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100'))
+         else
+             Site = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/' .. PlaceID .. '/servers/Public?sortOrder=Asc&limit=100&cursor=' .. foundAnything))
+         end
+         local ID = ""
+         if Site.nextPageCursor and Site.nextPageCursor ~= "null" and Site.nextPageCursor ~= nil then
+             foundAnything = Site.nextPageCursor
+         end
+         local num = 0;
+         for i,v in pairs(Site.data) do
+             local Possible = true
+             ID = tostring(v.id)
+             if tonumber(v.maxPlayers) > tonumber(v.playing) then
+                 for _,Existing in pairs(AllIDs) do
+                     if num ~= 0 then
+                         if ID == tostring(Existing) then
+                             Possible = false
+                         end
+                     else
+                         if tonumber(actualHour) ~= tonumber(Existing) then
+                             local delFile = pcall(function()
+                                delfile("NotSameServers.json")
+                                 AllIDs = {}
+                                 table.insert(AllIDs, actualHour)
+                             end)
+                         end
+                     end
+                     num = num + 1
+                 end
+                 if Possible == true then
+                     table.insert(AllIDs, ID)
+                     wait()
+                     pcall(function()
+                         writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
+                         wait()
+                         game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
+                     end)
+                     wait(4)
+                 end
+             end
+         end
+     end
+ 
+     function Teleport()
+        while wait() do
+            pcall(function()
+                 TPReturner()
+                 if foundAnything ~= "" then
+                     TPReturner()
+                 end
+            end)
+        end
+     end
+
+     spawn(function()
+        local ohString1 = "SetTeam"
+        local ohString2 = "Marines"
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(ohString1, ohString2)
+     end)
+
+
+spawn(function()
+   while wait(.8) do
+      if Chest_Farm then
+          pcall(function()
+  
+  for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+      if string.find(v.Name, "Chest") then
+          print(v.Name)
+          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+          wait(.15)
+      end
+  end
+  game.Players.LocalPlayer.Character.Head:Destroy()
+  for _,v in pairs(game:GetService("Workspace"):GetDescendants()) do
+   if string.find(v.Name, "Chest") and v:IsA("TouchTransmitter") then
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) --0 is touch
+   wait()
+   firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1) -- 1 is untouch
+   end
+   end
+  end)
+      end
+  end
+end)
+
+spawn(function()
+    while wait() do
+        if Server_Hop then
+            pcall(function()
+                        wait(wait_Time)
+                        Teleport()
+                        print("Finding new server")
+            end)
+        end
+    end
+end)
+
+
+end
+end)
+
+
+
+
+local Section = Tab:NewSection("Main")
+Section:NewButton("Rejoin", "Rejoin a Game", function() 
+    local TeleportService = game:GetService("TeleportService")
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+     
+    local Rejoin = coroutine.create(function()
+        local Success, ErrorMessage = pcall(function()
+            TeleportService:Teleport(game.PlaceId, LocalPlayer)
+        end)
+     
+        if ErrorMessage and not Success then
+            warn(ErrorMessage)
+        end
+    end)
+     
+    coroutine.resume(Rejoin)
+end)
+
+
+
+local Tab = Window:NewTab("🎫 credit") local Section = Tab:NewSection("By: peatchXD#6075")
+
+Section:NewKeybind("⚙ press to change button", "KeybindInfo", Enum.KeyCode.F, function() Library:ToggleUI() end) 
